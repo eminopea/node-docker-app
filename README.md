@@ -5,11 +5,11 @@ Construcción de imágenes Docker y despliegue con Docker Compose
 Ejecutar run.bat para agilizar procesos
 
 # Construcción de docker compose
-docker compose build
+# docker compose build
 
 # Despliegue de contenedores
-docker compose up -d
+# docker compose up -d
 
 # Tomar logs y ubicarlos en logs/logs_contenedores.log
-docker compose logs -f > logs/logs_contenedores.log
+# docker compose logs -f > logs/logs_contenedores.log
 
